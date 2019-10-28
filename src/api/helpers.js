@@ -2,7 +2,8 @@ import axios from 'ts-axios-new'
 
 const urlMap = {
   development: '/',
-  production: 'http://ustbhuangyi.com/sell/'
+  // production: 'http://ustbhuangyi.com/sell/'
+  production: '/'
 }
 const baseUrl = urlMap[process.env.NODE_ENV]
 const ERR_OK = 0
